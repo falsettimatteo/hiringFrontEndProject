@@ -14,7 +14,7 @@ function ContinentCard(props){
         <Card.Img  variant="top"  src={props.img} style={{width: '10rem', margin: 'auto'}}/>
   <Card.Body>
     <Card.Title>{props.name}</Card.Title>
-    <Button variant="primary" href={props.href}>{props.text}</Button>
+    <Button variant="success" href={props.href}>{props.text}</Button>
   </Card.Body>
         </Card>
       </Container>
